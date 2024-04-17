@@ -5,7 +5,7 @@
     📘Basic Syntax:    https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax  
 --------------------------------------------------------------------------------------------------------------------------------------->
 
-![archaeologiae-austriae-logo-small](https://github.com/IxI-Enki/XXXX)
+![archaeologiae-austriae-logo-small](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/visuals/Mainpage%20Layout.jpg?raw=true)
 
 ---
 
