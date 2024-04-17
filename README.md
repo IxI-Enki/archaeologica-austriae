@@ -11,7 +11,6 @@
 
 # <sup> *Project* </sup> : ***Archaeologiae Austriae***  
 
----
 ### **Short:**
 
  - ####  ***Archaelogiae Austriae presents austrias most up to date archaeological researches, discussions, sites and artefacts***  
@@ -21,7 +20,7 @@
 </sup></sub>
 
 > [!IMPORTANT]
-> **Hier geht es zum** [ ***Proposal*** ](https://github.com/IxI-Enki/XXXXX)  
+> **Project -** [ ***Proposal*** ](https://github.com/IxI-Enki/XXXXX)  
 > #### **Collaborators:**  
 >     
 >   | Jan Ritt | @IxI-Enki |
