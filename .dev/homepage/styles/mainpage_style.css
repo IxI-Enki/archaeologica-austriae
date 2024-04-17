@@ -1,0 +1,187 @@
+/* FONTS */
+@font-face {
+  font-family: DarkAge;
+  src: url(./fonts/DarkAge.TTF)
+}
+
+@font-face {
+  font-family: Donauschrift;
+  src: url(./fonts/Donauschrift.ttf);
+}
+
+@font-face {
+  font-family: SonOfTime;
+  src: url(./fonts/SonOfTime.ttf);
+}
+
+/* COLORS */
+/*
+#4C4731 #C4BDA3 #908459 #A0A88A #6E775E
+#B69335 #111613 #9B9A9D #676668 #C05C14
+*/
+
+
+
+/*  MAIN  */
+body {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: DarkAge;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(../images/pattern.png);
+
+}
+
+div {
+  box-sizing: border-box;
+}
+
+img {}
+
+h1 {
+  padding-top: 0px;
+
+  margin-top: 0px;
+  margin-bottom: -44px;
+
+  font-family: SonOfTime;
+  font-size: 85px;
+  text-align: center;
+  color: white;
+
+  text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
+}
+
+
+/*  CLASS  */
+.container {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  align-content: flex;
+}
+
+.box {
+  text-align: center;
+
+}
+
+.picture {}
+
+.button {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 4;
+
+  padding: 0px;
+  padding-inline: 10px;
+
+  margin: 3px;
+  margin-inline: 33px;
+
+  background-color: #A0A88A;
+
+  color: #2d2d2d;
+  text-shadow: 0.10rem 0.10rem 0.21rem 0.21rem #000000;
+
+
+  border: solid 1px;
+  border-radius: 6px;
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgb(47, 51, 41);
+}
+
+.button:hover {
+  box-shadow: 0.20rem 0.20rem 0.42rem 0.42rem rgb(135, 147, 118);
+  color: #C05C14FF;
+
+}
+
+.buttonLabel {}
+
+
+/*  ID  */
+#header {
+  padding: 0px;
+  margin: 0px;
+
+  height: fit-content;
+  text-align: center;
+
+  border: 3px #4C4731 solid;
+}
+
+#panorama_picture {
+  box-sizing: border-box;
+  display: block;
+
+  width: 100%;
+  height: 350px;
+
+  border-radius: 3px;
+}
+
+#mainBelt {
+  height: 200px;
+
+  border: #4CBBBB solid 1px;
+}
+
+#headLine {
+  padding: 3px;
+  padding-inline: auto;
+  margin-inline: 17.1%;
+
+  height: fit-content;
+
+  border: #FB35FF solid 1px;
+}
+
+#buttonWrapper {
+  margin: 100px;
+  margin-top: 33px;
+
+  height: 50px;
+
+  border: #FB2222 solid 1px;
+  text-align: center;
+ 
+  display: grid;
+  grid-template-columns: 4;
+
+}
+
+#mask {
+
+
+
+  margin-inline: 33%;
+  margin-top: 100px;
+
+  padding: 0px;
+
+  position: sticky;
+
+  inline-size: 33%;
+  height: fit-content;
+
+  /* background-image: url(../images/mask.png);
+*/
+  background-position: bottom;
+
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  border: #2222FF solid 1px;
+}
+
+#mask:hover {
+  background-color: #FFFFFF10;
+
+
+  background-position: bottom;
+  background-blend-mode: luminosity;
+}
