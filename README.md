@@ -20,7 +20,7 @@
 </sup></sub>
 
 > [!IMPORTANT]
-> **Project -** [ ***Proposal*** ](https://github.com/IxI-Enki/XXXXX)  
+> **Project -** [ ***Proposal*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/Ritt%20-%20Archäologie%20Österreichs.pdf)  
 > #### **Collaborators:**  
 >     
 >   | Jan Ritt | @IxI-Enki |
