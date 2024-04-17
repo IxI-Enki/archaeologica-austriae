@@ -20,9 +20,13 @@
 </sup></sub>
 
 > [!IMPORTANT]
-> **Project -** [ ***Proposal*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/Ritt%20-%20Archäologie%20Österreichs.pdf)  
-> #### **Collaborators:**  
->     
+> **1.) Project -** [ ***Proposal*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/Ritt%20-%20Archäologie%20Österreichs.pdf)  
+> **2.) Product -** [ ***BackLog*** ]() 
+>  
+> <sub>
+ **Planning-Poker -** [ ***Cards*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/visuals/Cards.jpeg) 
+> </sub>
+>  
 >   | Jan Ritt | @IxI-Enki |
 >   | ---: | :--- |
 
