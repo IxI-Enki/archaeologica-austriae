@@ -7,7 +7,7 @@
 | arch01 |   02   |   mdummyUser   | As a dummyUser i want to see a sketched out layout for the research page to get a feel for the layout  | a pencil and paper sketch of the general layout can be found in the sketches, 5 users shall be asked about their opinion and thoughts about the current layout |        |
 | arch01 |   03   |   dummyUser  | As a dummyUser i want to see the basic layout of the research page  |  -specs- |        |
 | arch01 |   04   | dummyUser   | As a dummyUser i want to be able to click on navigation buttons and navigate through the three existing pages | 5 buttons on the main page and 5 on each sub-site shall have their functionality |        |
-| arch01 |   05   | dummyUser   | As a dummyUser i want to see pleasing looking buttons to hover over and click on |  the buttons                                                                                                          |        |
+| arch01 |   05   | dummyUser   | As a dummyUser i want to see pleasing looking buttons to hover over and click on |  the buttons shall have a gray color and black text, and shine golden on moseover and be clickable  |        |
 | arch01 |      |  admin  | As admin I want to add and edit researches on research page  | The admin shall be able to add and manage the differenet research articles                              |        |
 | arch01 |      |  admins  | As admin I want to add and edit artifacts on artifact page   | Add, edit, delete artifacts; add and order visuals and mouseover informations                           |        |
 | arch01 |      |  admins  | As admin I want to add and edit articles on landing page     | Add, edit, delete articles and pictures; add and order visuals, set timeing for auto scrolling previews |        |
