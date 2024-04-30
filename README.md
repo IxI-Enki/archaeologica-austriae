@@ -21,7 +21,8 @@
 
 > [!IMPORTANT]
 > **1.) Project -** [ ***Proposal*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/Ritt%20-%20Archäologie%20Österreichs.pdf)  
-> **2.) Product -** [ ***BackLog*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/product-backLog.md)   
+> **2.) Product -** [ ***BackLog*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/product-backLog.md)
+>  ***work in progress*** 
 > **3.) Work -** [ ***InProgress*** ](https://github.com/IxI-Enki/archaeologiae-austriae/tree/main/.dev/homepage)  
 > <sub>  
 - **Planning-Poker -** [ ***Cards*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/visuals/Cards.jpeg)  
