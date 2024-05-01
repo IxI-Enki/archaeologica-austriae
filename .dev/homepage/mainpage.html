@@ -4,56 +4,90 @@
 <head>
 
   <meta charset="UTF-8" />
-  <meta name="Archaeologicae Austriae" content="collection of new archaeological places and artifacts from austria" />
-  <title>Archaeologiae Austriae</title>
+  <meta name="Archaeologica Austriae" content="collection of new archaeological places and artifacts from austria" />
+  <title>Archaeologica Austriae</title>
 
   <link rel="stylesheet" type="text/css" , href="./styles/mainpage_style.css" />
 
 </head>
 
 <body style="width:100%;">
+  <div class="wrapper_idx">
 
-
-  <div class="container" id="header" style="margin: 0px;
+    <!-- Beispiel für inline style:-->
+    <div class="container" id="header" style="margin: 0px;
               padding:0px; 
               height: auto; 
-              width:auto;
-              align-content:stretch;">
+              width:auto;">
 
-    <img id="panorama_picture" src="./images/panorama.jpg" alt="panorama_picture" />
-  </div>
-
-  <div class="container" id="mainBelt">
-
-    <div class="container" id="headLine">
-      <h1>
-        Archaeologiae Austriae
-      </h1>
+      <img id="panorama_picture" src="./images/panorama.jpg" alt="panorama_picture" />
     </div>
 
-    <div class="container" id="buttonWrapper">
 
-      <div class="button" id="sitesButton">
-        GrabungsOrte
+
+    <div class="container" id="mainBelt">
+
+      <div class="container" id="headLine">
+        <h1 title="Home">
+          Archaeologica Austriae
+        </h1>
+        <p id="sub" style="text-align:right;">Vincá-, Donauschrift-, Megalith-, Erdstallforschung</p>
       </div>
-      <div class="button" id="artefactButton">
-        Artefakte
+
+      <div class="container" id="buttonWrapper">
+
+        <div class="button" id="sitesButton" title="zu interessanten Grabungsorten & Fundstellen">
+          GrabungsOrte
+        </div>
+        <div class="button" id="artefactButton" title="zu untersuchten Artefakten">
+          Artefakte
+        </div>
+        <div class="button" id="researchButton"
+          title="zu aktuellen Forschungen, Ergebnissen & wissenschaftllichen Arbeiten ">
+          Forschung
+        </div>
+        <div class="button" id="newsButton" title="zu den Neuigkeiten">
+          Neuigkeiten
+        </div>
 
       </div>
-      <div class="button" id="researchButton">
-        Forschung
 
+    </div>
+
+    <div class="container" id="bottomWrapper">
+
+      <div id="about">
+        <h3 style="text-align: left;"> Archäologie in Österreich </h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ducimus praesentium quasi quibusdam hic nihil
+          unde? At voluptatibus maiores repellat corrupti! Autem quidem quibusdam saepe provident culpa.
+        </p>
       </div>
-      <div class="button" id="newsButton">
-        Neuigkeiten
+
+      <div id="shadow" style="height: 300px; width:300px; margin:auto;">
+        <div id="mask" style="height: 90%; width:99%; margin:auto" title="Vinca Maske, gefunden in Klosterneuburg">
+        </div>
+      </div>
+
+      <div id="general">
+        <h3 style="text-align: right;">
+          Über Archaelogica Austriae
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, exercitationem! Nihil, quibusdam! Iusto quo,
+          nesciunt harum sequi eos quod veniam voluptatibus libero porro ipsam saepe, aperiam quaerat, rerum
+          reprehenderit odio.
+        </p>
+        <div class="container" id="socialMediaWrapper">
+          <div  id="socialMedia" title="Social Media Links">Links:</div>
+          <div  id="socialMedia" title="X / Twitter">[ x]</div>
+          <div  id="socialMedia" title="Facebook">[fb]</div>
+          <div  id="socialMedia" title="Instagram">[inst]</div>
+          <div  id="socialMedia" title="YouTube">[youtube]</div>
+        </div>
 
       </div>
     </div>
-  </div>
-
-  <div class="container" id="maskContainer">
-    <img src="images/mask.png" id="mask">
-  </div>
 
 </body>
 
