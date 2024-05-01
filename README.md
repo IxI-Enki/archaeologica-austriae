@@ -9,7 +9,7 @@
 
 ---
 
-# <sup> *Project* </sup> : ***Archaeologiae Austriae***  
+# <sup> *Project* </sup> : ***Archaeologica Austriae***  
 
 ### **Short:**
 
