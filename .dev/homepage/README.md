@@ -6,4 +6,4 @@
 
 1.0.)
 ---
-![image](https://github.com/IxI-Enki/archaeologica-austriae/assets/138018029/24ee40db-2125-4167-ba77-8e6dbf2d9d43)
+![image](https://github.com/IxI-Enki/archaeologica-austriae/assets/138018029/69d6f890-954b-4f4e-aff4-f9155dc8fd58)
