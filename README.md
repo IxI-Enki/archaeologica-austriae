@@ -4,7 +4,7 @@
     📗Quickstart:      https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github  
     📘Basic Syntax:    https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax  
 --------------------------------------------------------------------------------------------------------------------------------------->
-
+Sketched up Idea:  
 ![archaeologiae-austriae-logo-small](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/visuals/Mainpage%20Layout.jpg?raw=true)
 
 ---
