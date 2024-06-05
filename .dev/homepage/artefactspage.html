@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Archaeologica Austriae" content="collection of new archaeological places and artifacts from austria" />
+  <!-- <title>   Archaeologica Austriae</title> -->
+  <title id="dynamicTitle"> Archaeologica Austriae </title>
+  <script>
+    // Function to ANIMATE TITLE:
+    function changeTitle() {
+      // Array of titles to cycle through
+      var titles = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
+      var currentIndex = 0;
+      var name = " Archaeologica Austriae ";
+      // UPDATE TITLE:
+      function updateTitle() {
+        document.getElementById("dynamicTitle").innerText = name + titles[currentIndex];
+        currentIndex = (currentIndex + 1) % titles.length;
+      }
+      // Initial update
+      updateTitle();
+      // Set interval to update the title every 300 milliseconds
+      setInterval(updateTitle, 300);
+    }
+    // Call the function when the page loads
+    window.onload = changeTitle;
+  </script>
+
+  <link rel="stylesheet" type="text/css" , href="./styles/artefactpage03_style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <div class="container" id="headerWrapper">
+    .
+    <!--
+       <a href="./mainpage.html" id="homeButton">
+         <div class="container" id="logo" title="zur Hauptseite">
+           AA
+         </div>
+       </a>
+     -->
+
+    <!-- BUTTONS -->
+    <div class="container" id="buttonWrapper">
+
+      <div class="hover" id="hoverField">
+        <a href="./sitespage.html" id="sitesButton">
+          <div class="button" title="zu interessanten Grabungsorten & Fundstellen">
+            GrabungsOrte
+          </div>
+        </a>
+      </div>
+      <!-- - - - - - - - - - - - - - - - - - -->
+      <div class="hover" id="hoverField">
+        <a href="./artefactspage04.html" id="artefactButton">
+          <div class="button" title="zu untersuchten Artefakten">
+            Artefakte
+          </div>
+        </a>
+      </div>
+      <!-- - - - - - - - - - - - - - - - - - -->
+      <div class="hover" id="hoverField">
+        <a href="./researchpage.html" id="researchButton">
+          <div class="button" title="zu aktuellen Forschungen, Ergebnissen & wissenschaftllichen Arbeiten ">
+            Forschung
+          </div>
+        </a>
+      </div>
+      <!-- - - - - - - - - - - - - - - - - - -->
+      <div class="hover" id="hoverField">
+        <a href="./mainpage.html" id="newsButton">
+          <div class="button" title="zur Hauptseite">
+            Hauptseite
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- DESCRIPTION -->
+  <div class="container" id="pageDescription">
+    <h5>
+      Artefakte aus Österreich
+    </h5>
+    Sehen Sie sich die schönsten und interesantesten Artefakte aus der Region an.
+    <br>
+  </div>
+
+  <!-- ARTEFACTS -->
+  <div class="container" id="artefactContainer">
+    <!-- Artefact 07 -->
+    <img class="artifactPicture" id="aP07" alt="artefactPicture07" src="../homepage/images/aP07_outline_shadow.png"
+    title="Artefact 7" width="120%">
+
+    <!-- Artefact 01 -->
+    <img class="artifactPicture" id="aP01" alt="artefactPicture01" src="../homepage/images/aP01_outline_shadow.png"
+      title="Artefact 1" width="90%">
+    <!-- Artefact 02 -->
+    <img class="artifactPicture" id="aP02" alt="artefactPicture02" src="../homepage/images/aP02_outline_shadow.png"
+    title="Artefact 2" width="120%">
+    <!-- Artefact 03 CENTER -->
+    <img class="artifactPicture" id="aP03" src="../homepage/images/aP03_outline_shadow.png" alt="artefactPicture03"
+    title="Artefact 3" width="80%">
+    <!-- Artefact 04 -->
+    <img class="artifactPicture" id="aP04" alt="artefactPicture04" src="../homepage/images/aP04_outline_shadow.png"
+    title="Artefact 4" width="90%">
+    <!-- Artefact 05 -->
+    <img class="artifactPicture" id="aP05" alt="artefactPicture05" src="../homepage/images/aP05_outline_shadow.png"
+      title="Artefact 5" width="70%">
+    <!-- Artefact 06 -->
+    <img class="artifactPicture" id="aP06" alt="artefactPicture06" src="../homepage/images/aP06_outline_shadow.png"
+      title="Artefact 6" width="70%">
+  </div>
+
+  <!-- DESCRIPTION OF ARTIFACT 3 -->
+  <div class="artefact_descrtiption" id="description03">
+    Description of the Artifact 3 here
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Archaeologica Austriae" content="collection of new archaeological places and artifacts from austria" />
+  <!-- <title>Archaeologica Austriae</title> -->
+  <title id="dynamicTitle">Original Title</title>
+  <!-- <title>Archaeologica Austriae</title> -->
+ <script>
+   // Function to ANIMATE TITLE:
+   function changeTitle() {
+     // Array of titles to cycle through
+     var titles = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
+     var currentIndex = 0; // Index to keep track of the current title
+     var name = " Archaeologica Austriae ";
+     // Function to UPDATE TITLE:
+     function updateTitle() {
+       document.getElementById("dynamicTitle").innerText = name + titles[currentIndex];
+       currentIndex = (currentIndex + 1) % titles.length; // Move to the next title or wrap around
+     }
+     // Initial update
+     updateTitle();
+     // Set interval to update the title every 300 milliseconds
+     setInterval(updateTitle, 300);
+   }
+   // Call the function when the page loads
+   window.onload = changeTitle;
+ </script>
+  <link rel="stylesheet" type="text/css" , href="./styles/researchpage_style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <div class="container" id="headerWrapper">
+ .
+    <!--
+    <a href="./mainpage.html" id="homeButton">
+      <div class="container" id="logo" title="zur Hauptseite">
+        AA
+      </div>
+    </a>
+  -->
+
+  <!-- BUTTONS -->
+    <div class="container" id="buttonWrapper">
+
+      <div class="hover" id="hoverField">
+        <a href="./sitespage.html" id="sitesButton">
+          <div class="button" title="zu interessanten Grabungsorten & Fundstellen">
+            GrabungsOrte
+          </div>
+        </a>
+      </div>
+      <!-- - - - - - - - - - - - - - - - - - -->
+      <div class="hover" id="hoverField">
+        <a href="./artefactspage04.html" id="artefactButton">
+          <div class="button" title="zu untersuchten Artefakten">
+            Artefakte
+          </div>
+        </a>
+      </div>
+      <!-- - - - - - - - - - - - - - - - - - -->
+      <div class="hover" id="hoverField">
+        <a href="./researchpage.html" id="researchButton">
+          <div class="button" title="zu aktuellen Forschungen, Ergebnissen & wissenschaftllichen Arbeiten ">
+            Forschung
+          </div>
+        </a>
+      </div>
+      <!-- - - - - - - - - - - - - - - - - - -->
+      <div class="hover" id="hoverField">
+        <a href="./mainpage.html" id="newsButton">
+          <div class="button" title="zur Hauptseite">
+            Hauptseite
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- DESCRIPTION -->
+  <div class="container" id="pageDescription">
+    <h5>
+      Forschungsarbeiten aus Österreich
+    </h5>
+    Die Forschungsergebnisse beleuchten Alter, Entstehung und Nutzung des Streblganges und werfen faszinierende Fragen
+    über die Frühgeschichte Österreichs auf.<br>
+    <!-- <h6> -->
+    <!-- Entdecken Sie: -->
+    <!-- </h6> -->
+    <!-- - Unglaubliche Funde wie die Verglasung des Gesteins durch Hitzeeinwirkung von bis zu 1400 Grad Celsius <br> -->
+    <!-- - Hinweise auf eine unbekannte Metalllegierung <br> -->
+    <!-- - Ein Alter von über 20.000 Jahren -->
+    <br>
+  </div>
+
+  <div class="container" id="content">
+    <!-- PAGE 1 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft">
+      </div>
+      <!-- PDF PAGE 1 -->
+      <div id="page01" class="wholePage">
+        <!-- picture  -->
+      </div>
+      <div class="infoBoxRight">
+        <div class="infoBoxRight01">
+          Geheimnisvolle unterirdische Gangsysteme, Erdställe genannt, durchziehen die österreichische
+          Landschaft.<br><br>
+          Seit Jahrhunderten faszinieren sie die Menschen. <br>
+          - Was war ihr Zweck? <br>
+          - Wer hat sie erbaut? <br>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft"> </div>
+      <div id="page02" class="wholePage">
+        <h4 id="Top">
+          Inhalt
+        </h4>
+        <!-- EINLEITUNG -->
+        <p class="pdf">
+          1. <a href="#Einleitung" class="Ueberschrift01" id="Ueberschrift_Effekt" alt="1. Einleitung"
+            title="Einleitung">
+            Einleitung
+          </a>
+        </p>
+        <p class="pdf" id="indented">
+          1.1 <a href="#Der_Begriff_Erdstall" class="UnterUeberschrift01" id="Ueberschrift_Effekt"
+            alt="1.1 Der Begriff „Erdstall“" title="Der Begriff „Erdstall“">
+            Der Begriff „Erdstall“ <br><br>
+          </a>
+          1.2 <a href="#Merkmale" class="UnterUeberschrift01" id="Ueberschrift_Effekt" alt="1.2 Merkmale"
+            title="Merkmale">
+            Merkmale <br><br>
+          </a>
+          1.3 <a href="#Verbreitung" class="UnterUeberschrift01" id="Ueberschrift_Effekt" alt="1.3 Verbreitung"
+            title="Verbreitung">
+            Verbreitung
+          </a>
+        </p>
+        <!-- DER STREBLGANG -->
+        <p class="pdf">
+          2. <a href="#Der_Streblgang_in_Puchegg_im_Detail" class="Ueberschrift01" id="Ueberschrift_Effekt"
+            alt="2. Der Streblgang in Puchegg im Detail" title="Der Streblgang in Puchegg im Detail">
+            Der Streblgang in Puchegg im Detail
+          </a>
+        </p>
+        <p class="pdf" id="indented">
+          2.1 <a href="#Vermessung" class="UnterUeberschrift01" id="Ueberschrift_Effekt" alt="2.1 Vermessung"
+            title="Vermessung">
+            Vermessung <br><br>
+          </a>
+          2.2 <a href="#Werkzeugspuren" class="UnterUeberschrift01" id="Ueberschrift_Effekt" alt="2.2 Werkzeugspuren"
+            title="Werkzeugspuren">
+            Werkzeugspuren <br><br>
+          </a>
+          2.3 <a href="#Datierung" class="UnterUeberschrift01" id="Ueberschrift_Effekt" alt="2.3 Datierung"
+            title="Datierung">
+            Datierung
+          </a>
+        </p>
+        <p class="pdf">
+          <!-- ZUSAMMENFASSUNG -->
+          3. <a href="#Zusammenfassung" class="Ueberschrift01" id="Ueberschrift_Effekt" alt="3. Zusammenfassung"
+            title="Zusammenfassung">
+            Zusammenfassung <br><br>
+          </a>
+          <!-- LITERATURVERZEICHNIS -->
+          4. <a href="#Literaturverzeichnis" class="Ueberschrift01" id="Ueberschrift_Effekt"
+            alt="4. Literaturverzeichnis" title="Literaturverzeichnis">
+            Literaturverzeichnis <br><br>
+          </a>
+          <!-- ABBILDUNGSVERZEICHNIS -->
+          5. <a href="#Abbildungsverzeichnis" class="Ueberschrift01" id="Ueberschrift_Effekt"
+            alt="5. Abbildungsverzeichnis" title="Abbildungsverzeichnis">
+            Abbildungsverzeichnis
+          </a>
+        </p>
+        </p>
+      </div>
+      <div class="infoBoxRight">
+        <div class="infoBoxRight01">
+          Über die Überschriften in <br>
+          der Inhaltsangabe können Sie <br>
+          direkt zum gewünschten Kapitel springen. <br>
+          <br>
+          Die Fußnoten im Text<br>
+          kennzeichnen Referenzierte Quellen. <br>
+          <br>
+          <a href="./Streblgang in Puchegg - Jan Ritt - 11910915.pdf"> FÜR DIE PDF VERSION <br> <b> hier klicken
+            </b></a>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 3 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft"> </div>
+      <!-- PDF PAGE 3 -->
+      <div id="page03" class="wholePage">
+        <h4 id="Einleitung">
+          <a title="Zum Anfang" href="#Top">
+            1. Einleitung
+          </a>
+        </h4>
+        <p class="pdf_text">
+          Diese Arbeit soll sich mit dem Rätsel künstlich angelegter unterirdischer Gänge und Gangsysteme
+          Österreichs beschäftigen, die trotz langjähriger Erforschung immer noch viele interessante Fragen
+          aufwerfen. <br>
+          Um einen Einstieg in dieses Thema zu schaffen, möchte ich zwei Pioniere der
+          Erdstallforschung zitieren.
+        </p>
+        <p class="pdf_text">
+          Stadtpfarrkaplan Ludwig Stampfer schrieb 1887:
+          <br>
+        </p>
+        <p class="pdf_text" id="text01">
+          <i>
+            „Es besteht wohl kein Zweifel, dass in Steiermark eine größere Anzahl solcher Höhlen existiere. <br>
+            Viele davon dürften wegen ihres gänzlichen Verfalles der Forschung entzogen, viele hingegen noch <br>
+            zugänglich sein, und sind bisher nur deshalb wenig beachtet worden, weil man in der Beurteilung <br>
+            ihres Alters und Zweckes auf falscher Fährte war. <br>
+            Es würde der vaterländischen Geschichtsforschung ein großer Dienst erwiesen, wollte man das <br>
+            Vorkommen solcher Erdbauten zur öffentlichen Kenntnis bringen; denn jede neue Entdeckung und <br>
+            Untersuchung ist ein Baustein, der zur Vollendung des geistigen Gebäudes, welches über diese <br>
+            geheimnisvollen Räume endgültigen Aufschluss gibt, beiträgt.“
+          </i>
+          <a id="footNote01" href="">¹</a>
+        </p>
+        <p class="pdf_text">
+          Und 1903 beschrieb Pater Lambert Karner seine Entdeckungen unter der Erde:
+          <br>
+        </p>
+        <p class="pdf_text">
+          <i>
+            „Es bietet einen eigenen. Reiz, solche merkwürdig geformte Räumlichkeiten zu schauen, noch mehr <br>
+            aber, in denselben vorzudringen. Tiefe Stille herrschte ringsum, nur nach und nach treten die <br>
+            Formen und Gestalt des Baues aus dem Dunkeln hervor. das Ungewisse, wohin man kommt und <br>
+            was da kommt, hält den Geist in gespannter Erwartung, dazu die völlige Abgeschiedenheit von <br>
+            aller Welt, lauter Dinge, die diese Art der Forschung zu einer ungemein interessanten gestalten.“
+          </i>
+          <a id="footNote02" href="">²</a>
+        </p>
+        <h4 id="Der_Begriff_Erdstall">
+          <a title="Zum Anfang" href="#Top">
+            1.1 Der Begriff "Erdstall"
+          </a>
+        </h4>
+        <p class="pdf_text">
+          Die heutige Bedeutung des Wortes „Stall“ als Bauwerk zur Unterbringung von Tieren hat nichts mit <br>
+          dem Erdstall zu tun. Die Ableitung des Namens vom bergmännischen Begriff „Stollen“ ist nicht <br>
+          beweisbar, obwohl, bautechnisch gesehen, der Querschnitt vieler Erdstallgänge eine verblüffende <br>
+          Ähnlichkeit mit denen vorgeschichtlicher Bergwerksstollen hat. <br>
+          Hier bedeutet Stall nur „Stelle, Platz, Ort“ unter der Erde.
+          <a id="footNote03" href="">³</a>
+          <br>
+        </p>
+      </div>
+      <div class="infoBoxRight">
+        Fußnoten: <br>
+        <div class="infoBoxRight01">
+          ¹) STAMPFER 1887, 29.
+        </div>
+        <div class="infoBoxRight02">
+          ²) KARNER 1903, 19.
+        </div>
+        <div class="infoBoxRight03">
+          ³) FALKENBERG 1982, 183.
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 4 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft"> </div>
+      <!-- PDF PAGE 4 -->
+      <div id="page04" class="wholePage">
+        <h4 id="Merkmale">
+          <a title="Zum Anfang" href="#Top">
+            1.2 Merkmale
+          </a>
+        </h4>
+        <p class="pdf_text">
+          Erdställe unterscheiden sich deutlich von allen anderen unterirdischen Bauten wie <br>
+          „Geheimgängen, Fluchtwegen, Bergbaustollen, Bierkellern und Wasserminen“. <br>
+          Ihre Eigenart lässt sich in einigen Stichworten zusammenfassen: <br>
+        </p>
+        <p class="pdf_text_indent">
+          - Von Menschen gebaut <br>
+          - Sorgfältig geformte Wandflächen <br>
+          - Bearbeitungsspuren der Werkzeuge erkennbar <br>
+          - Alle Wand-, Decken-, und Gehflächen unverkleidet <br>
+          - Gänge für Erwachsene nur gebückt oder kriechend begehbar <br>
+          - Schlupflöcher mit Abmessungen bis zu 40 x 50 cm, nur schwer passierbar <br>
+          - „Lichtnischen“, erkennbar an Rußspuren oder „Tastnischen“ gleicher Form ohne Rußspuren <br>
+          - Nur ein Eingang vorhanden <br>
+          - Die wenigen Funde in ihnen sind zerbrochen oder verbrannt, in jedem Fall beschädigt <br>
+          - Für heutige Begriffe ein nutzloses, in sich unlogisches Bauwerk, ohne jeglichen erkennbaren Sinn oder Zweck.
+          <a id="footNote04" href="">⁴</a>
+          <br>
+        </p>
+        <h4 id="Verbreitung">
+          <a title="Zum Anfang" href="#Top">
+            1.3 Verbreitung
+          </a>
+        </h4>
+        <div class="pdf_Container01">
+          <div class="pdf_ContainerLeft">
+            Unterirdische Anlagen tauchen in weiten Teilen <br>
+            Europas - von Russland, Ungarn über <br>
+            Zentraleuropa bis nach Frankreich, England und <br>
+            Spanien - auf.
+            <a id="footNote05" href="">⁵</a>
+            <br>
+            Im Folgenden möchte ich jedoch näher auf die <br>
+            Bauten in der österreichischen Oststeiermark, <br>
+            (Abb. 1) speziell den Streblgang in Puchegg <br>
+            nahe Vorau, eingehen. <br>
+          </div>
+          <div class="pdf_ContainerRight">
+            <img src="./images/abb1.JPG" alt="Abb. 1" width="90%" height="100%">
+            <p class="bilderBeschriftung">
+              Abb. 1: Verbreitung unterirdischer Anlagen um Vorau
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="infoBoxRight">
+        Fußnoten: <br>
+        <div class="infoBoxRight01">
+          ⁴) FALKENBERG 1982, 184.
+        </div>
+        <div class="infoBoxRight02">
+          ⁵) KUSCH 2009, 15.
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 5 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft"></div>
+      <div id="page05" class="wholePage">
+        <h4 id="Der_Streblgang_in_Puchegg_im_Detail">
+          <a title="Zum Anfang" href="#Top">
+            2. Der Streblgang in Puchegg im Detail
+          </a>
+        </h4>
+        <div class="pdf_Container02">
+          <div class="pdf_ContainerLeft">
+            Der Streblgang in Puchegg ist ein am Eingang stark <br>
+            verwitterter, in massiven quarzhaltigen Augengneis <br>
+            gearbeiteter Gang, dem ein aus Trockenmauerwerk <br>
+            erbauter Zugang vorgelagert ist. (Abb. 2) Der Eingang <br>
+            muss lange nach dem Felsengang angebaut worden <br>
+            sein, wie die Verwitterungsspuren im Felsen erkennen <br>
+            lassen.
+            <a id="footNote06" href="">⁶</a>
+            <br>
+          </div>
+          <div class="pdf_ContainerRight">
+            <img src="./images/abb2.JPG" alt="Abb. 2" width="90%" height="90%">
+            <p class="bilderBeschriftung">
+              Abb. 2: Gemauerter Eingang, der mit hunderten <br>
+              Kilogramm schweren Deckplatten abgedeckt wurde.
+            </p>
+          </div>
+        </div>
+        <h4 id="Vermessung">
+          <a title="Zum Anfang" href="#Top">
+            2.1 Vermessung
+          </a>
+        </h4>
+        <div class="pdf_Container01">
+          <div class="pdf_ContainerLeft">
+            Ein 6 m langer Gangabschnitt wurde mit <br>
+            einem Laser-Präzisionsgerät der Firma <br>
+            Surphaser - 3D Laser Scanners (England/USA) <br>
+            in Zusammenarbeit mit den Firmen GEOs3D - <br>
+            Geodetic and Industrial Surveying in <br>
+            Oberhofen (Tirol) und Energie Burgenland <br>
+            Geoservice vermessen. (Abb. 3) <br>
+            Die Auswertung des Scans, der mit einer <br>
+            Genauigkeit von 0,2 mm und über 172 <br>
+            Millionen Messpunkten durchgeführt wurde, <br>
+            zeigte gleichmäßig durchgezogene <br>
+            Schrämspuren mit vielen abrupten Enden, die <br>
+            auf großen Wand- und Deckenbereichen <br>
+          </div>
+          <div class="pdf_ContainerRight">
+            <img src="./images/abb3.JPG" alt="Abb. 3" width="90%" height="90%">
+            <p class="bilderBeschriftung">
+              Abb. 3: Querschnitt und Aufsicht des gescannten Gangabschnittes
+            </p>
+          </div>
+        </div>
+        <p class="pdf_text" id="text07">
+          Abweichungen von nur 14 mm aufweisen. Keine tausende Schlagmarken von Meißeln,
+          <a id="footNote07" href="">⁷</a>
+          bemerkenswert ist dabei die einheitliche und gleichmäßige Arbeitsrichtung des Vortriebs über die <br>
+          gesamte gescannte Länge. (Abb. 4)
+        </p>
+      </div>
+      <div class="infoBoxRight">
+        Fußnoten: <br>
+        <div class="infoBoxRight01">
+          ⁶) KUSCH 2014, 45.
+        </div>
+        <div class="infoBoxRight02">
+          ⁷) KUSCH 2014, 53-56.
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 6 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft"></div>
+      <div id="page06" class="wholePage">
+        <h4 id="Werkzeugspuren">
+          <a title="Zum Anfang" href="#Top">
+            2.2 Werkzeugspuren
+          </a>
+        </h4>
+        <div class="pdf_Container03">
+          <div class="pdf_ContainerLeft">
+            Jede einzelne Arbeitsspur wurde <br>
+            mit einem starken <br>
+            Industriemagneten sondiert um <br>
+            den metallhaltigen Abrieb <br>
+            herauszufiltern, der noch im <br>
+            Gestein eingeschlossen war. <br>
+            Die so gewonnenen Proben <br>
+            wurden im Anschluss an der <br>
+            Karl-Franzens-Universität in <br>
+            Graz mit dem
+            Rasterelektronenmikroskop
+          </div>
+          <div class="pdf_ContainerRight">
+            <img src="./images/abb4.JPG" alt="Abb. 4" width="90%" height="85%">
+            <p class="bilderBeschriftung">
+              Abb. 4: Zu sehen sind je 40 cm lange und gleichmäßige Schrämspuren und Stellen <br>
+              wo die Werkzeugspitze im Stein hängen geblieben ist (1-3) <br>
+            </p>
+          </div>
+        </div>
+        <p class="pdf_text">
+          untersucht und man stellte dabei fest, dass die Oberfläche des Gesteins eindeutig verglast war. <br>
+          (Abb. 5) Eine solche Versinterung des Augengneises kann nur bei relativ hoher Temperatur von <br>
+          über 1200 bis 1400 Grad Celsius während des Arbeitsprozesses zustande kommen.
+          <a id="footNote08" href="">⁸</a> <br>
+          Weiters konnten in den Proben ein von flüssigem Gestein überzogener Metallspan entdeckt <br>
+          werden, (Abb. 6) der mittels Mikrosondenanalyse ausgewertet wurde. Dadurch konnte <br>
+          ausgeschlossen werden, dass es sich um natürlich im Gestein vorkommendes Eisenoxid handelt. <br>
+          Das Metall ist eine technisch hergestellte Legierung aus Fe (Eisen), O (Sauerstoff), Mn (Mangan), Al <br>
+          (Aluminium), Si (Silizium), K (Kalium), Ca (Calcium), Ti (Titan), und Cr (Chrom).
+          <a id="footNote09" href="">⁹</a> <br>
+        </p>
+        <div class="pdf_Container01">
+          <div class="pdf_ContainerLeft">
+            <img src="./images/abb5.JPG" alt="Abb. 5" width="90%" height="80%">
+            <p class="bilderBeschriftung">
+              Abb. 5: Ein Probenstück, das mit dem Magneten aus der <br>
+              Werkzeugrille geborgen wurde, sehr schön zu erkennen <br>
+              ist die Verglasung des Gesteins und eine kugelförmige <br>
+              Erhebung am unteren Rand. <br>
+            </p>
+          </div>
+          <div class="pdf_ContainerRight">
+            <img src="./images/abb6.JPG" alt="Abb. 6" width="90%" height="80%">
+            <p class="bilderBeschriftung">
+              Abb. 6: Kugelförmige Erhebung im Detail, der Metallspan <br>
+              wurde während der Arbeit mit flüssigem Gestein <br>
+              überzogen und blieb so der Nachwelt erhalten. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="infoBoxRight">
+        Fußnoten: <br>
+        <div class="infoBoxRight01">
+          ⁸) KUSCH 2014, 46-52.
+        </div>
+        <div class="infoBoxRight02">
+          ⁹) KUSCH 2014, 55.
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PAGE 7 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft"></div>
+      <div id="page07" class="wholePage">
+        <h4 id="Datierung">
+          <a title="Zum Anfang" href="#Top">
+            2.3 Datierung
+          </a>
+        </h4>
+        <p class="pdf_text">
+          In den letzten Jahren wurden neben klassisch-archäologischen Auswertungen erstmals auch <br>
+          interdisziplinäre naturwissenschaftliche Untersuchungsmethoden angewandt um den <br>
+          Entstehungszeitraum der Anlagen vorläufig einmal eingrenzen zu können. Durch den Einsatz der <br>
+          TCN-Datierung (TCN = Terrestrial Cosmogenic Nuclides) ist es möglich einen Richtwert über das <br>
+          Alter einer natürlichen oder bearbeiteten Gesteinsoberfläche zu erhalten, wann sie je nach <br>
+          Fundposition und Datierungsart (exposure- oder burialage) das erste bzw. letzte Mal an der <br>
+          Erdoberfläche der Kosmischen Strahlung ausgesetzt war. Ursprünglich wurde diese Methode in <br>
+          der Geologie eingesetzt um Landschaftsräume oder Gletschermoränen, die das Eis nach einer <br>
+          Kaltphase freigelegt hat, zu datieren. Bei fachgerechter Anwendung gibt es die Möglichkeit, eine <br>
+          Altersbestimmung auf Grund der Reaktion der Kosmischen Einstrahlung (kosmogen erzeugter <br>
+          Nuklide 10Be und 26Al) in den Quarzkristallen der Gesteine durchzuführen. Die Bildung dieser <br>
+          kosmogenen Isotopen ist ausschließlich auf kosmische Strahlung zurückzuführen. Dieser Prozess <br>
+          ermöglicht die Steigerung der Radionuklide in den der Strahlung ausgesetzten Mineralien, was zu <br>
+          einer ständig zunehmenden Konzentration führt.<a id="footNote10" href="">¹⁰</a> <br>
+          Zur Datierung des Streblganges in Puchegg wurde eine der bearbeitete Deckenplatten des Zugangs <br>
+          herangezogen (Abb. 2) und lieferte so vorläufige Ergebnisse von 20258 ± 531 Jahre vor heute.
+          <a id="footNote11" href="">¹¹</a> <br>
+
+        </p>
+        <h4 id="Zusammenfassung">
+          <a title="Zum Anfang" href="#Top">
+            3. Zusammenfassung
+          </a>
+        </h4>
+        <p class="pdf_text">
+          Man könnte also vermuten, dass die Forschung wirklich lange Zeit auf einer falschen Fährte war, <br>
+          wie eingangs von Ludwig Stampfer angedeutet. Sowohl das Alter, die Entstehung und die <br>
+          Verwendung dieser unterirdischen Anlagen werfen immer noch mehr Fragen auf je länger wir sie <br>
+          erforschen und in sie eintauchen. Möglicherweise hatte der Mensch schon weitaus früher Metalle <br>
+          zu verwenden gewusst, als wir Ihm bislang zutrauten. Ich denke die Untersuchung der Erdställe und <br>
+          der Vergleich mit ähnlichen Anlagen hat noch großes Potential zu fantastischen Entdeckungen und <br>
+          Schlussfolgerungen, die vielleicht einige Lücken unserer Geschichtsschreibung schließen könnten, <br>
+          so märchenhaft der Stand der Dinge gerade noch erscheint. <br>
+        </p>
+      </div>
+      <div class="infoBoxRight">
+        Fußnoten: <br>
+        <div class="infoBoxRight01">
+          ¹⁰) KUSCH 2017,72.
+        </div>
+        <div class="infoBoxRight02">
+          ¹¹) KUSCH 2017, 73.
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 8 -->
+    <div class="pdfPage">
+      <div class="infoBoxLeft"></div>
+      <div id="page08" class="wholePage">
+        <h4 id="Literaturverzeichnis">
+          <a title="Zum Anfang" href="#Top">
+            4. Literaturverzeichnis
+          </a>
+        </h4>
+        <p class="pdf_text_verzeichnisse">
+          FALKENBERG 1982 <br>
+          H. FALKENBERG, Die Erdställe. Zwischenbilanz einer rätselhaften Unterwelt in Oberösterreich, <br>
+          Österreichische Heimatblätter 36/3, 1982, 183. <br>
+          KARNER 1903 <br>
+          P. L. KARNER, Künstliche Höhlen aus alter Zeit. <br>
+          Wien 1903, 19. <br>
+          KUSCH 2009 <br>
+          H. KUSCH, I. KUSCH, Tore zur Unterwelt: Das Geheimnis der unterirdischen Gänge aus uralter Zeit. <br>
+          Graz 2009, 15. <br>
+          KUSCH 2014 <br>
+          H. KUSCH, I. KUSCH, Versiegelte Unterwelt: Das Geheimnis der Jahrtausende alten Gänge. <br>
+          Graz 2014, 45-56. <br>
+          KUSCH 2017 <br>
+          H. KUSCH, Vorläufige archäologische und historische Verifizierung der megalithischen Steinsetzungen und <br>
+          unterirdischen Trockenmauer- Anlagen in der Nordoststeiermark, <br>
+          Österreich - Der Erdstall, Hefte des Arbeitskreises für Erdstallforschung 43, 2017, 72-73. <br>
+          STAMPFER 1887 <br>
+          L. STAMPFER, Die künstlichen Höhlen bei Kaindorf, <br>
+          Mitteilungen des Historischen Vereines für Steiermark 35, <br>
+          1887, 29. <br>
+        </p>
+        <h4 id="Abbildungsverzeichnis">
+          <a title="Zum Anfang" href="#Top">
+            5. Abbildungsverzeichnis
+          </a>
+        </h4>
+        <p class="pdf_text_verzeichnisse">
+          Abb. 1: <br>
+          Verbreitung unterirdischer Anlagen um Vorau, <br>
+          H. KUSCH, I. KUSCH, Versiegelte Unterwelt: Das Geheimnis der Jahrtausende alten Gänge. <br>
+          Graz 2014, 35. …………………………………………………………………………………………………………………………………… Seite 4 <br>
+          Abb. 2: <br>
+          Eingang des Streblganges in Puchegg, <br>
+          H. KUSCH, I. KUSCH, Tore zur Unterwelt: Das Geheimnis der unterirdischen Gänge aus uralter Zeit. <br>
+          Graz 2009, Abb. 157. ………………………………………………………………………………………………………………………… Seite 5 <br>
+          Abb. 3: <br>
+          Querschnitt und Aufsicht des gescannten Gangabschnittes, <br>
+          H. KUSCH, I. KUSCH, Versiegelte Unterwelt: Das Geheimnis der Jahrtausende alten Gänge. <br>
+          Graz 2014, 55. …………………………………………………………………………………………………………………………………… Seite 5 <br>
+          Abb. 4: <br>
+          Schrämspuren und Stellen wo die Werkzeugspitze im Stein hängen geblieben ist, <br>
+          H. KUSCH, I. KUSCH, Versiegelte Unterwelt: Das Geheimnis der Jahrtausende alten Gänge. <br>
+          Graz 2014,56. …………………………………………………………………………………………………………………………………… Seite 6 <br>
+          Abb. 5: <br>
+          Ein Probenstück, erkennbare Verglasung des Gesteins, <br>
+          H. KUSCH, I. KUSCH, Versiegelte Unterwelt: Das Geheimnis der Jahrtausende alten Gänge. <br>
+          Graz 2014,52. …………………………………………………………………………………………………………………………………… Seite 6 <br>
+          Abb. 6: Kugelförmige Erhebung im Detail, <br>
+          H. KUSCH, I. KUSCH, Versiegelte Unterwelt: Das Geheimnis der Jahrtausende alten Gänge. <br>
+          Graz 2014,53. …………………………………………………………………………………………………………………………………… Seite 6 <br>
+      </div>
+
+      
+      <!-- <div class="infoBoxRight"> </div> -->
+    </div>
+  </div>
+
+</body>
