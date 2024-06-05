@@ -1,0 +1,193 @@
+/* FONTS */
+@font-face {
+  font-family: DarkAge;
+  src: url("./fonts/DarkAge.TTF");
+}
+@font-face {
+  font-family: Donauschrift;
+  src: url("./fonts/Donauschrift.TTF");
+}
+@font-face {
+  font-family: SonOfTime;
+  src: url("./fonts/SonOfTime.ttf");
+}
+
+/* COLORS */
+/*
+#4C4731 #C4BDA3 #908459 #A0A88A #6E775E
+#B69335 #111613 #9B9A9D #676668 #C05C14
+background: rgb(192,92,20);
+
+background: linear-gradient(180deg, 
+rgba(192,92,20,1) 10%, 
+rgba(182,147,53,1) 20%, 
+rgba(144,132,89,1) 30%,
+rgba(76,71,49,1) 40%, 
+rgba(110,119,94,1) 50%, 
+rgba(160,168,138,1) 60%, 
+rgba(196,189,163,1) 70%, 
+rgba(155,154,157,1) 80%, 
+rgba(103,102,104,1) 90%, 
+rgba(17,22,19,1) 100%);
+*/
+
+/*  MAIN  */
+body {
+  padding: 0px;
+  margin: 0px;
+
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(../images/pattern.png);
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  font-family: SonOfTime;
+  font-size: 20px;
+  text-shadow: 0 0.1rem rgba(0, 0, 0, 0.2);
+}
+h1 {
+  padding-top: 0px;
+
+  margin-top: 0px;
+  margin-bottom: -44px;
+
+  font-family: SonOfTime;
+  font-size: 85px;
+  text-align: center;
+  color: white;
+
+  text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
+}
+h3 {
+  color: white;
+  font-size: 28px;
+  font-family: SonOfTime;
+  text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
+  margin-top: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+/*  CLASS  */
+.container {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  align-content: flex;
+}
+.box {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 50px;
+  background-color: #FB35FF;
+}
+.button {
+  box-sizing: border-box;
+  grid-template-columns: 4;
+
+  padding: 1px;
+  padding-top: 3px;
+  padding-inline: 10px;
+
+  margin: 3px;
+  margin-inline: 10px;
+
+  background-color: #A0A88A;
+
+  color: #2d2d2d;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+
+  color: rgba(0, 0, 0, 0.9);
+  border: solid 1px;
+  border-radius: 13px;
+  /*
+  background: linear-gradient(180deg,
+      rgba(160, 168, 138, 0.9) 0%,
+  rgba(196, 189, 163, 0.9) 26%,
+  rgba(155, 154, 157, 0.9) 50%,
+  rgba(110, 119, 94, 0.9) 95%,
+  rgba(103, 102, 104, 0.9) 100%); */
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.4) 0%,
+      rgba(196, 189, 163, 0.4) 26%,
+      rgba(155, 154, 157, 0.4) 50%,
+      rgba(110, 119, 94, 0.4) 95%,
+      rgba(103, 102, 104, 0.4) 100%);
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgb(47, 51, 41);
+
+}
+.button:hover {
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgb(47, 51, 41),
+    0.10rem 0.10rem 0.40rem 0.40rem rgba(235, 235, 203, 0.085);
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+.hover {
+  padding-top: 0px;
+  /*  border: #D1D0FF solid 1px; */
+  height: 66px;
+  transition: height, padding-top;
+}
+.hover:hover {
+  padding-top: 10px;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+/*  ID  */
+#headerWrapper {
+  height: 100px;
+  padding-top: 1px;
+  /*  border: #4CBBBB solid 1px; */
+  text-decoration: none;
+  transition: height, padding-top;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+#headerWrapper:hover {
+  padding-top: 10px;
+  transition: 0.3s;
+  transition-timing-function: ease-in;
+}
+#logo {
+  height: fit-content;
+  margin-left: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  /*  border: #B22BB2 solid 1px; */
+  text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
+  font-family: SonOfTime;
+  font-size: 88px;
+  transition: height, padding, font-size, margin-top, text-shadow;
+}
+#logo:hover {
+  font-size: 100px;
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
+  margin-top: -5px;
+  text-shadow: 0 0.1rem black, 0 0 0.14em #B69335;
+}
+#buttonWrapper {
+  margin: 100px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  /*  border: #FB2222 solid 1px; */
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-family: SonOfTime;
+}
+#researchButton {
+}
+#newsButton {
+}
+#sitesButton {
+}
+#artefactButton {
+}

@@ -1,0 +1,840 @@
+/* FONTS */
+@font-face {
+  font-family: DarkAge;
+  src: url("./fonts/DarkAge.TTF");
+}
+
+@font-face {
+  font-family: Donauschrift;
+  src: url("./fonts/Donauschrift.TTF");
+}
+
+@font-face {
+  font-family: SonOfTime;
+  src: url("./fonts/SonOfTime.ttf");
+}
+
+/* COLORS */
+/*
+#4C4731 #C4BDA3 #908459 #A0A88A #6E775E
+#B69335 #111613 #9B9A9D #676668 #C05C14
+background: rgb(192,92,20);
+
+background: linear-gradient(180deg, 
+rgba(192,92,20,1) 10%, 
+rgba(182,147,53,1) 20%, 
+rgba(144,132,89,1) 30%,
+rgba(76,71,49,1) 40%, 
+rgba(110,119,94,1) 50%, 
+rgba(160,168,138,1) 60%, 
+rgba(196,189,163,1) 70%, 
+rgba(155,154,157,1) 80%, 
+rgba(103,102,104,1) 90%, 
+rgba(17,22,19,1) 100%);
+*/
+
+/*  MAIN  */
+body {
+  padding: 0px;
+  margin: 0px;
+
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(../images/pattern.png);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: SonOfTime;
+  font-size: 20px;
+  text-shadow: 0 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  padding-top: 0px;
+
+  margin-top: 0px;
+  margin-bottom: -44px;
+
+  font-family: SonOfTime;
+  font-size: 85px;
+  text-align: center;
+  color: white;
+
+  text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
+}
+
+h3 {
+  color: white;
+  font-size: 28px;
+  font-family: SonOfTime;
+  text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
+  margin-top: 0px;
+}
+
+a {
+  align-self: center;
+  text-decoration: none;
+}
+
+/*  CLASS  */
+.container {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  align-content: flex;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 50px;
+  background-color: #FB35FF;
+}
+
+.button {
+  box-sizing: border-box;
+  grid-template-columns: 4;
+
+  padding: 1px;
+  padding-top: 3px;
+  padding-inline: 10px;
+
+  margin: 3px;
+  margin-inline: 10px;
+
+  background-color: #A0A88A;
+
+  color: #2d2d2d;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+
+  color: rgba(0, 0, 0, 0.9);
+  border: solid 1px;
+  border-radius: 13px;
+  /*
+  background: linear-gradient(180deg,
+      rgba(160, 168, 138, 0.9) 0%,
+  rgba(196, 189, 163, 0.9) 26%,
+  rgba(155, 154, 157, 0.9) 50%,
+  rgba(110, 119, 94, 0.9) 95%,
+  rgba(103, 102, 104, 0.9) 100%); */
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.7) 0%,
+      rgba(196, 189, 163, 0.7) 26%,
+      rgba(155, 154, 157, 0.7) 50%,
+      rgba(110, 119, 94, 0.7) 95%,
+      rgba(103, 102, 104, 0.7) 100%);
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgb(47, 51, 41);
+  height: 40px;
+  font-size: x-large;
+}
+
+.button:hover {
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgb(47, 51, 41),
+    0.10rem 0.10rem 0.40rem 0.40rem rgba(235, 235, 203, 0.085);
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
+.hover {
+  padding-top: 0px;
+  /*  border: #D1D0FF solid 1px; */
+  height: 66px;
+  transition: height, padding-top;
+}
+
+.hover:hover {
+  padding-top: 10px;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+/*  ID  */
+#headerWrapper {
+  height: 100px;
+  padding-top: 1px;
+  /* border: #4CBBBB solid 1px; */
+  text-decoration: none;
+  transition: height, padding-top;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  background-image: url(../images/panorama_small.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*
+*/
+  opacity: 88%;
+
+  /*
+background: linear-gradient(90deg,
+rgba(160, 168, 138, 0.4) 0%,
+rgba(196, 189, 163, 0.4) 26%,
+rgba(155, 154, 157, 0.4) 50%,
+rgba(110, 119, 94, 0.4) 95%,
+rgba(103, 102, 104, 0.4) 100%);
+*/
+}
+
+#headerWrapper:hover {
+  padding-top: 10px;
+  transition: 0.3s;
+  transition-timing-function: ease-in;
+}
+
+#logo {
+  height: 100%;
+  margin-top: -10px;
+  margin-left: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  /*  border: #B22BB2 solid 1px; */
+  text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
+  font-family: SonOfTime;
+  font-size: 88px;
+  transition: height, padding, font-size, margin-top, text-shadow;
+}
+
+#logo:hover {
+  font-size: 100px;
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
+  margin-top: -15px;
+  text-shadow: 0 0.1rem black, 0 0 0.14em #B69335;
+}
+
+#buttonWrapper {
+  margin: 100px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  /*  border: #FB2222 solid 1px; */
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-family: SonOfTime;
+}
+
+#researchButton {}
+
+#newsButton {}
+
+#sitesButton {}
+
+#artefactButton {}
+
+#pageDescription {
+  opacity: 88%;
+  margin: 2%;
+  margin-top: 1%;
+  margin-inline: 5%;
+  margin-right: 36px;
+  margin-left: 36px;
+  margin-bottom: 0px;
+
+  padding-top: 10px;
+  padding-inline: 30px;
+
+  color: #2d2d2d;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+
+  color: rgba(0, 0, 0, 0.9);
+  /* border: solid 1px; */
+  border-radius: 13px;
+  /*
+  background: linear-gradient(180deg,
+      rgba(160, 168, 138, 0.9) 0%,
+  rgba(196, 189, 163, 0.9) 26%,
+  rgba(155, 154, 157, 0.9) 50%,
+  rgba(110, 119, 94, 0.9) 95%,
+  rgba(103, 102, 104, 0.9) 100%); */
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.4) 0%,
+      rgba(196, 189, 163, 0.4) 26%,
+      rgba(155, 154, 157, 0.4) 50%,
+      rgba(110, 119, 94, 0.4) 95%,
+      rgba(103, 102, 104, 0.4) 100%);
+  font-family: SonOfTime;
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 29px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+}
+
+h6 {
+  font-size: 25px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+#content {
+  text-align: center;
+  width: 100%;
+  /* border: 5px red solid; */
+  margin: auto;
+  padding-inline: auto;
+  display: border-box;
+}
+
+.infoBoxLeft {
+  /* border: 2px lightsteelblue solid; */
+  margin-top: 10px;
+  margin-inline: 0px;
+  padding-block: 10%;
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.4) 0%,
+      rgba(196, 189, 163, 0.4) 26%,
+      rgba(155, 154, 157, 0.4) 50%,
+      rgba(110, 119, 94, 0.4) 95%,
+      rgba(103, 102, 104, 0.4) 100%);
+  border-radius: 13px;
+  /*  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2); */
+  font-family: SonOfTime;
+  font-size: 24px;
+  width: 0px;
+}
+
+.infoBoxRight {
+  /* border: 2px rgb(64, 108, 166) solid; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-inline: 20px;
+  padding-block: 3%;
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.4) 0%,
+      rgba(196, 189, 163, 0.4) 26%,
+      rgba(155, 154, 157, 0.4) 50%,
+      rgba(110, 119, 94, 0.4) 95%,
+      rgba(103, 102, 104, 0.4) 100%);
+  color: black;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+  border-radius: 13px;
+  margin-left: 88%;
+  width: 0px;
+  transition: width, margin-left, box-shadow, height;
+  font-size: 0px;
+  text-align: left;
+  font-family: SonOfTime;
+  font-size: 0px;
+  align-content: center;
+  align-self: center;
+  height: fit-content;
+  padding-left: 10px;
+}
+
+.infoBoxRight01 {
+  /* border: 2px rgb(64, 108, 166) solid; */
+  margin: 10px;
+  transition: font-size, height;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.infoBoxRight02 {
+  /* border: 2px rgb(64, 108, 166) solid; */
+  margin: 10px;
+  transition: font-size;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.infoBoxRight03 {
+  /* border: 2px rgb(64, 108, 166) solid; */
+  margin: 10px;
+  transition: font-size;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.wholePage {
+  background-color: #FFFFFF;
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgb(47, 51, 41);
+  border-bottom-right-radius: 100px;
+  box-shadow: 1.0rem 0.6rem 0.3rem 0.3rem rgba(30, 30, 30, 0.6);
+
+}
+
+.pdfPage {
+  text-align: center;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 5% 70% 25%;
+  /* border: 1px red solid; */
+  margin: auto;
+  padding-inline: auto;
+  margin-block: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-size: 20px;
+
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.4) 0%,
+      rgba(196, 189, 163, 0.4) 26%,
+      rgba(155, 154, 157, 0.4) 50%,
+      rgba(110, 119, 94, 0.4) 95%,
+      rgba(103, 102, 104, 0.4) 100%);
+  color: black;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+  border-radius: 13px;
+  padding-block: 1%;
+}
+
+.pdf_text:hover {
+  text-shadow: 0 0.1em rgba(210, 210, 100, 0.9);
+}
+
+.pdf_text {
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+}
+
+.pdf_text_indent:hover {
+  text-shadow: 0 0.1em rgba(210, 210, 100, 0.9);
+
+}
+
+.pdf_text_indent {
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+}
+
+.pdf_text_verzeichnisse {
+  font-family: Calibri;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+}
+
+
+
+
+
+#text01:hover~.infoBoxRight01 {
+  height: 100px;
+}
+
+h4 {
+  margin-top: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  text-align: left;
+  padding-left: 8%;
+  font-size: 29px;
+  color: black;
+
+}
+
+a:visited {
+  color: black;
+}
+
+#footNote01:hover~.infoBoxRight01 {
+  font-size: 24px;
+}
+
+#footNote02:hover~.infoBoxRight02 {
+  font-size: 24px;
+  height: 24px;
+}
+
+#footNote03:hover~.infoBoxRight03 {
+  font-size: 24px;
+}
+
+.pdf {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Impact, Haettenschweiler, 'Arial Narrow Bold';
+  font-size: 23px;
+  /* border: 1px blue solid; */
+
+  text-align: left;
+  padding-left: 25%;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+#indented {
+  margin-left: 3%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.Ueberschrift01 {
+  color: black;
+}
+
+.UnterUeberschrift01 {
+  color: black;
+}
+
+
+#Ueberschrift_Effekt {
+  transform: font-size;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  font-size: 23px;
+
+}
+
+#Ueberschrift_Effekt:hover {
+  font-size: 30px;
+}
+
+
+#page01 {
+  background-color: #FFFFFF;
+
+  height: 330px;
+  contain: content;
+  background-image: url(../images/page01.jpg);
+  background-clip: border-box;
+  background-position: center;
+  background-size: 100%;
+
+}
+
+.infoBoxRight {
+  transition: margin, width, font-size, color, opacity;
+  color: rgba(0, 0, 0, 0.01);
+  opacity: 0;
+  font-size: 0px;
+}
+
+.wholePage:not(hover)~.infoBoxRight {
+  transition: 0.3s;
+  transition: margin, width, font-size, color;
+  transition-timing-function: ease-out-in;
+}
+
+.wholePage:not(hover)~.infoBoxRight {
+  transition: 0.3s;
+  transition-delay: 0.3;
+  transition-timing-function: ease-out-in;
+}
+
+.wholePage:hover~.infoBoxRight {
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgba(47, 51, 41, 1);
+  width: 88%;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  margin-left: 6%;
+  font-size: 22px;
+  color: black;
+  opacity: 0.8;
+}
+
+.infoBoxRight:hover {
+  /* Styles for hovered state */
+  box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgba(247, 251, 241, 0.8);
+  width: 88%;
+  transition: 0.3s;
+  transition-timing-function: ease-out-in;
+  margin-left: 6%;
+  font-size: 22px;
+  color: white;
+  opacity: 1;
+
+}
+
+#page02 {
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  /* background-image: url(../images/research01/page02.jpg);*/
+}
+
+#page03 {
+  height: 1400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  /* background-image: url(../images/research01/page03.jpg); */
+}
+
+#page04 {
+  height: 1400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  /* background-image: url(../images/research01/page04.jpg); */
+}
+
+.pdf_Container01 {
+  margin: auto;
+  padding: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* border: black solid 3px; */
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+  color: black;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+}
+
+
+.pdf_Container02 {
+  margin: auto;
+  padding: auto;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  /* border: black solid 3px; */
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+  color: black;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+}
+
+.pdf_Container03 {
+  margin: auto;
+  padding: auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  /* border: black solid 3px; */
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+  color: black;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+}
+
+.pdf_ContainerLeft {
+  /* border: #FBBBBB solid 3px; */
+  padding-left: 80px;
+}
+
+.pdf_ContainerLeft:hover {
+  text-shadow: 0 0.1em rgba(210, 210, 100, 0.9);
+}
+
+.pdf_ContainerRight {
+  /* border: #2225FF solid 3px; */
+}
+
+.bilderBeschriftung {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: Calibri;
+  font-size: 17px;
+  line-height: 1em;
+}
+
+#abb01 {
+  text-align: right;
+}
+
+
+#page05 {
+  height: 1400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  /* background-image: url(../images/research01/page05.jpg); */
+}
+
+#page06 {
+  height: 1400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  /* background-image: url(../images/research01/page06.jpg); */
+}
+
+#page07 {
+  height: 1400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  /* background-image: url(../images/research01/page07.jpg); */
+}
+
+#page08 {
+  height: 1400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100%;
+  /* background-image: url(../images/research01/page08.jpg); */
+}
+
+
+
+#artefactContainer {
+  margin: auto;
+  margin-left: 32px;
+  margin-right: 32px;
+  display: grid;
+  grid-template-columns: 11% 13% 15% 22% 15% 13% 11%;
+  /* border: black solid 3px; */
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+  color: black;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+
+  border-radius: 13px;
+  /*
+  background: linear-gradient(180deg,
+      rgba(160, 168, 138, 0.9) 0%,
+  rgba(196, 189, 163, 0.9) 26%,
+  rgba(155, 154, 157, 0.9) 50%,
+  rgba(110, 119, 94, 0.9) 95%,
+  rgba(103, 102, 104, 0.9) 100%); */
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.4) 0%,
+      rgba(196, 189, 163, 0.4) 26%,
+      rgba(155, 154, 157, 0.4) 50%,
+      rgba(110, 119, 94, 0.4) 95%,
+      rgba(103, 102, 104, 0.4) 100%);
+
+
+  gap: 0%;
+
+  padding-right: 40px;
+}
+
+.artifactPicture {
+  margin: auto;
+  padding: auto;
+  /* border: black solid 1px; */
+  display: grid;
+
+  height: auto;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  transition: all;
+
+
+
+}
+
+img {
+  /* Standard-Bildstile */
+}
+
+#aP01:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.4) translateX(30%);
+}
+
+#aP02:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.3) translateX(20%);
+
+}
+
+#aP03:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.3) translateX(10%);
+}
+
+#aP04:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale3d(1.5, 1.5, 1.5);
+}
+
+#aP05:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.4) translateX(-10%);}
+
+#aP06:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.4) translateX(-20%);
+}
+
+#aP07:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.5) translateX(-30%);
+}
+
+
+.artefact_descrtiption {
+
+  margin: auto;
+  padding: auto;
+  margin-inline: 2.5%;
+  border: black solid 3px;
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2em;
+  color: black;
+  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
+
+  border-radius: 13px;
+  /*
+    background: linear-gradient(180deg,
+        rgba(160, 168, 138, 0.9) 0%,
+    rgba(196, 189, 163, 0.9) 26%,
+    rgba(155, 154, 157, 0.9) 50%,
+    rgba(110, 119, 94, 0.9) 95%,
+    rgba(103, 102, 104, 0.9) 100%); */
+  background: linear-gradient(90deg,
+      rgba(160, 168, 138, 0.4) 0%,
+      rgba(196, 189, 163, 0.4) 26%,
+      rgba(155, 154, 157, 0.4) 50%,
+      rgba(110, 119, 94, 0.4) 95%,
+      rgba(103, 102, 104, 0.4) 100%);
+
+
+}

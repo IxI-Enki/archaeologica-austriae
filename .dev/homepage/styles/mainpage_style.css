@@ -1,17 +1,22 @@
 /* FONTS */
 @font-face {
   font-family: DarkAge;
-  src: url(./fonts/DarkAge.TTF);
+  src: url("./fonts/DarkAge.TTF");
+}
+
+@font-face {
+  font-family: HolyUnion;
+  src: url("./fonts/HolyUnion.ttf");
 }
 
 @font-face {
   font-family: Donauschrift;
-  src: url(./fonts/Donauschrift.TTF);
+  src: url("./fonts/Donauschrift.TTF");
 }
 
 @font-face {
   font-family: SonOfTime;
-  src: url(./fonts/SonOfTime.ttf);
+  src: url('./fonts/SonOfTime.ttf');
 }
 
 /* COLORS */
@@ -38,7 +43,6 @@ body {
   padding: 0px;
   margin: 0px;
 
-  font-family: DarkAge;
   background-size: contain;
   background-attachment: fixed;
   background-position: top;
@@ -71,32 +75,33 @@ h1 {
 
 h3 {
   color: white;
-  font-size: 35px;
+  font-size: 28px;
   font-family: SonOfTime;
   text-shadow: 0 0.27rem black, 0 0 0.04em #B69335;
-
-
-
+  margin-top: 0px;
 }
 
 /*  CLASS  */
 .container {
   padding: 0px;
-  margin: 0px;
   height: auto;
   align-content: flex;
+  margin:auto;
+  align-self: center;
 }
 
 .box {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;	
   width: 50px;
   /* background-color: #FB35FF; */
+  align-content: center;
+  margin: auto;
 }
 
 .button {
   box-sizing: border-box;
-  grid-template-columns: 4;
+  grid-template-columns: 3;
 
   padding: 1px;
   padding-top: 3px;
@@ -127,6 +132,7 @@ h3 {
       rgba(110, 119, 94, 0.4) 95%,
       rgba(103, 102, 104, 0.4) 100%);
   box-shadow: 0.10rem 0.10rem 0.21rem 0.21rem rgb(47, 51, 41);
+text-decoration: none;
 
 }
 
@@ -177,7 +183,7 @@ h3 {
 }
 
 #sub {
-  margin-top: -1px;
+  margin-top: 1px;
   height: 15px;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -199,6 +205,7 @@ h3 {
 
   font-family: SonOfTime;
   font-size: 20px;
+
 }
 
 #bottomWrapper {
@@ -213,11 +220,21 @@ h3 {
 
   height: 300px;
 }
+#researchButton{
+  text-decoration: none; /* Remove underline by default */
+}
+#newsButton{
+  text-decoration: none; /* Remove underline by default */
+}#sitesButton{
+  text-decoration: none; /* Remove underline by default */
+}#artefactButton{
+  text-decoration: none; /* Remove underline by default */
+}
 
 #about {
   background-color: rgba(15, 15, 15, 0.3);
   /*  border: #d69600 solid 1px; */
-  padding: 20px;
+  padding: 15px;
   border-radius: 15px;
   background: linear-gradient(102deg,
       rgba(160, 168, 138, 0.3) 0%,
@@ -229,8 +246,6 @@ h3 {
 
 #general {
   background-color: rgba(15, 15, 15, 0.3);
-  border-radius: 15px;
-
   border-radius: 15px;
   background: linear-gradient(102deg,
       rgba(160, 168, 138, 0.3) 0%,
@@ -285,8 +300,7 @@ h3 {
   inline-size: 33%;
   height: fit-content;
 
-  /* background-image: url(../images/mask.png);
-*/
+  /* background-image: url(../images/mask.png); */
   background-position: bottom;
 
   background-size: 100%;
@@ -294,7 +308,7 @@ h3 {
   background-attachment: scroll;
   background-image: url(../images/mask_two.png);
 
-  /*  border: #2222FF solid 1px;*/
+  /* border: #2222FF solid 1px; */
   opacity: 100%;
 }
 
@@ -304,27 +318,117 @@ h3 {
   background-image: url(../images/mask_two_highlighted.png);
 }
 
-#socialMediaWrapper {
-  height: 20px;
+.box_socialMedia {
   width: 100%;
-  /*  border: solid pink 1px ; */
+  display: grid;
+  grid-template-columns: 20% 80%;
+  font-family: DarkAge;
+  margin-top: 10px;
+  padding-bottom: 1px;
+}
 
+#socialMediaWrapper {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 38px;
+
+  /*  border: solid pink 1px ; */
   background: linear-gradient(102deg,
       rgba(160, 168, 138, 0.2) 0%,
       rgba(196, 189, 163, 0.2) 26%,
       rgba(155, 154, 157, 0.2) 50%,
       rgba(110, 119, 94, 0.2) 95%,
       rgba(103, 102, 104, 0.2) 100%);
+
   /* background-color: rgb(190, 26, 53); */
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   text-align: center;
 
   border-radius: 10px;
+
+  opacity: 90%;
 }
 
-#socialMedia {
-  margin-inline: 2%;
-
+.socialMedia {
+  /*  margin-inline: 2%; */
   /* border: red solid 1px;*/
+  opacity: 90%;
+}
+
+#fb {
+  background-image: url(../images/fb.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
+
+#fb:hover {
+  transition: 0.5s;
+  opacity: 100%;
+}
+
+#tw {
+  background-image: url(../images/tw.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  opacity: 70%;
+  /**/
+
+  transition-duration: 5s;
+  transition-property: opacity, transform;
+  
+}
+
+#tw:hover {
+  transform:rotate(180deg);
+  opacity: 100%;
+}
+
+#inst {
+  background-image: url(../images/inst.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
+
+#inst:hover {
+  transition: 0.5s;
+  opacity: 100%;
+}
+
+#pint {
+  background-image: url(../images/pint.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
+
+#pint:hover {
+  transition: 0.5s;
+  opacity: 100%;
+}
+
+#tel {
+  background-image: url(../images/tel.png);
+  background-size: 30px;
+  opacity: 70%;
+  background-repeat: no-repeat;
+}
+
+#tel:hover {
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+#yt {
+  background-image: url(../images/yt.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
+
+#yt:hover {
+  transition: 0.5s;
+  opacity: 100%;
 }
