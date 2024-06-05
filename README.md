@@ -22,7 +22,7 @@ Sketched up Idea:
 > [!IMPORTANT]
 > **1.) Project -** [ ***Proposal*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/Ritt%20-%20Archäologie%20Österreichs.pdf)  
 > **2.) Product -** [ ***BackLog*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/notes/product-backLog.md)  
-> **3.) Hompage -** [ ***work in progress*** ](https://github.com/IxI-Enki/archaeologica-austriae/tree/main/.dev/homepage)  
+> **3.) Hompage -** [ ***work in progress*** ](https://github.com/IxI-Enki/archaeologica-austriae/blob/main/.dev%2Fhomepage%2FREADME.md)  
 - **Planning-Poker -** [ ***Cards*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/visuals/Cards.jpeg)  
 - **Further Sketches -** [ ***Layout of the pages*** ](https://github.com/IxI-Enki/archaeologiae-austriae/blob/main/visuals/sketches-structure.jpeg)  
  
