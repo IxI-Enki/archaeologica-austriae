@@ -13,7 +13,7 @@ Sketched up Idea:
 
 ### **Short:**
 
- - ####  ***Archaelogiae Austriae presents austrias most up to date archaeological researches, discussions, sites and artefacts***  
+ - ####  ***Archaelogica Austriae presents austrias most up to date archaeological researches, discussions, sites and artefacts***  
 
 <sub><sup>
 ---
