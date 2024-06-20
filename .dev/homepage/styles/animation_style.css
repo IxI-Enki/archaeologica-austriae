@@ -77,7 +77,6 @@ h3 {
 }
 
 a {
-  align-self: center;
   text-decoration: none;
 }
 
@@ -267,7 +266,7 @@ h5 {
   margin-bottom: 0px;
   margin-top: 0px;
   padding-bottom: 15px;
-  padding-top: 0px;
+  padding-top: 7px;
 }
 
 h6 {
@@ -709,168 +708,38 @@ a:visited {
 
 
 
-#artefactContainer {
-  margin: auto;
-  margin-left: 32px;
-  margin-right: 32px;
-  display: grid;
-  grid-template-columns: 11% 13% 15% 22% 15% 13% 11%;
-  /* border: black solid 3px; */
-  font-family: Calibri;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: left;
-  text-justify: auto;
-  line-height: 2em;
-  color: black;
-  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
-
-  border-radius: 13px;
-  /*
-  background: linear-gradient(180deg,
-      rgba(160, 168, 138, 0.9) 0%,
-  rgba(196, 189, 163, 0.9) 26%,
-  rgba(155, 154, 157, 0.9) 50%,
-  rgba(110, 119, 94, 0.9) 95%,
-  rgba(103, 102, 104, 0.9) 100%); */
-  background: linear-gradient(90deg,
-      rgba(160, 168, 138, 0.4) 0%,
-      rgba(196, 189, 163, 0.4) 26%,
-      rgba(155, 154, 157, 0.4) 50%,
-      rgba(110, 119, 94, 0.4) 95%,
-      rgba(103, 102, 104, 0.4) 100%);
-
-
-  gap: 0%;
-
-  padding-right: 40px;
-}
-
-.artifactPicture {
-  margin: auto;
-  padding: auto;
-  /* border: black solid 1px; */
-  display: grid;
-
-  height: auto;
-  align-self: center;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-
-  transition: all;
-
-
-
-}
-
-img {
-  /* Standard-Bildstile */
-}
-
-#aP01:hover {
-  transition: transform 0.5s ease-in-out;
-  transform: scale(1.4) translateX(30%);
-}
-
-#aP02:hover {
-  transition: transform 0.5s ease-in-out;
-  transform: scale(1.3) translateX(20%);
-
-}
-
-#aP03:hover {
-  transition: transform 0.5s ease-in-out;
-  transform: scale(1.3) translateX(10%);
-}
-
-#aP04:hover {
-  transition: transform 0.5s ease-in-out;
-  transform: scale3d(1.5, 1.5, 1.5);
-}
-
-#aP05:hover {
-  transition: transform 0.5s ease-in-out;
-  transform: scale(1.4) translateX(-10%);}
-
-#aP06:hover {
-  transition: transform 0.5s ease-in-out;
-  transform: scale(1.4) translateX(-20%);
-}
-
-#aP07:hover {
-  transition: transform 0.5s ease-in-out;
-  transform: scale(1.5) translateX(-30%);
-}
-
-
-.artefact_descrtiption {
-
-  margin: auto;
-  padding: auto;
-  margin-inline: 2.5%;
-  border: black solid 3px;
-  font-family: Calibri;
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: left;
-  text-justify: auto;
-  line-height: 2em;
-  color: black;
-  text-shadow: 0 0.1em rgba(0, 0, 0, 0.2);
-
-  border-radius: 13px;
-  /*
-    background: linear-gradient(180deg,
-        rgba(160, 168, 138, 0.9) 0%,
-    rgba(196, 189, 163, 0.9) 26%,
-    rgba(155, 154, 157, 0.9) 50%,
-    rgba(110, 119, 94, 0.9) 95%,
-    rgba(103, 102, 104, 0.9) 100%); */
-  background: linear-gradient(90deg,
-      rgba(160, 168, 138, 0.4) 0%,
-      rgba(196, 189, 163, 0.4) 26%,
-      rgba(155, 154, 157, 0.4) 50%,
-      rgba(110, 119, 94, 0.4) 95%,
-      rgba(103, 102, 104, 0.4) 100%);
-
-
-}
-
-
 #animationContainer {
-  margin-top: -80px;
   display: flex;
-  height: 100px;
+  height: 160px;
+  width: 100vw;
   /* border: rgb(255, 235, 53) 1px solid; */
   align-items: center;
 }
 
 #animation {
   margin: auto;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 252, 56, 0.454);
+  width: 110px;
+  height: 110px;
+  background-color: rgb(255, 251, 30);
   transition: background-color;
-  box-shadow: 0 0 2px 5px rgba(255, 252, 61, 0.445);
+  box-shadow: 0 0 5px 5px rgba(255, 216, 101, 0.487);
 
 }
 
 #animationB {
   margin: auto;
-  width: 40px;
-  height: 40px;
+  width: 110px;
+  height: 110px;
   background-color: rgb(255, 251, 30);
   transition: background-color;
   rotate: 45deg;
 
-  box-shadow: 0 0 5px 5px rgba(255, 248, 170, 0.79);
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.7);
 }
 
 #animationB {
-  animation: pulseB 20s normal infinite;
+  animation: pulseB 40s normal infinite ease-in-out;
+  /* animation: changeSize 4s normal infinite ease-in-out; */
 }
 
 @keyframes pulseB {
@@ -879,26 +748,48 @@ img {
   }
 
   50% {
-    background-color: rgba(255, 225, 150, 0.678);
+    background-color: rgba(255, 228, 191, 0.678);
+    transform: rotate(-400deg);
   }
 
   100% {
     background-color: #fffdd3;
-    transform: rotate(-360deg);
   }
 }
 
+
+@keyframes changeSize {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
 #animation {
   animation: pulse 20s normal infinite;
+  /* animation: changeSize 3s normal infinite ease-in-out; */
+
 }
 
 @keyframes pulse {
   0% {
-    background-color: #fff75f;
+    background-color: #fffdd3;
   }
 
   50% {
-    background-color: rgba(255, 227, 187, 0.678);
+    background-color: rgba(255, 248, 125, 0.893);
   }
 
   100% {
@@ -924,7 +815,7 @@ img {
   }
 
   50% {
-    background-color: rgba(255, 217, 67, 0.366);
+    background-color: rgb(255, 255, 255);
     transform: rotate(360deg);
   }
 
@@ -942,38 +833,164 @@ img {
   width: 100%;
   height: 100%;
   align-content: center;
+  align-self: center;
+  background-color: rgba(00, 5, 0, 1);
+  background: radial-gradient(white, transparent 80%);
+
+
 }
 
-#circle02 {  
-  
-  width: 88%;
-  height: 88%;
-  animation: pulsate 2.33s infinite ease-in-out;
-  background-color: rgba(20, 20, 0, 0.2);
-  align-self: center;
-  margin: auto;
+#circle02 {
+  rotate: 33deg;
+  width: 30%;
+  height: 50%;
+  animation: rotate 4s infinite none;
+  align-content: center;
+  background-color: rgba(00, 5, 0, 1);
+}
 
+
+@keyframes moveInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#circle02 {
+  rotate: 33deg;
+  width: 33%;
+  height: 33%;
+  animation: rotate 4s infinite none;
+  align-content: center;
+  animation: spin 2s infinite linear;
+  animation-delay: 1s;
+  background-color: rgba(00, 5, 0, 1);
+  box-shadow: 0 0 2ex 2px rgba(0, 0, 0, 0.487);
 }
 
 #circle03 {
-  width: 100%;
-  height: 100%;
-  animation: pulsate 3.3s infinite ease-in-out;
-  background-color: rgba(0, 0, 0, 0.2);
-  align-self: center;
-  margin: auto;
+  animation: moveInFromRight 1s ease-in-out;
+  opacity: 0;
+  width: 20%;
+  height: 20%;
+  background-color: rgba(00, 5, 0, 1);
+  animation-delay: 2s;
+
+
 }
 
-@keyframes pulsate {
+#circle03:hover {
+  box-shadow: 0 0 1rem rgba(00, 5, 0, 1);
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
 
+#circle03 {
+  transition: transform, box-shadow;
+}
+
+#circle03 {
+  opacity: 0;
+  width: 50%;
+  height: 50%;
+  animation: 3s ease-in-out infinite;
+  animation-delay: 0s;
+}
+
+@keyframes fade-in {
   0% {
-    transform: scale3d(1.0, 1.0, 1.0);
-  }
-  50% {
-   transform: scale3d(1.2, 1.2, 1.2);
-  }
-  100% {
-    transform: scale3d (0.8, 0.8, 0.8);
+    opacity: 0;
   }
 
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#circle04:hover {
+  box-shadow: 0 0 1rem rgba(00, 5, 0, 1);
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+#circle04 {
+  transition: transform, box-shadow;
+}
+
+
+
+
+
+
+.gridRow {
+  margin: auto;
+  padding: auto;
+  width: 100vw;
+}
+
+.gridCell {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 0 0.1rem rgba(00, 0, 0, 0.1);
+  grid-template-columns: repeat(3, 3fr);
+  display: grid;
+
+}
+
+.gridCell:hover {
+  box-shadow: 0 0 0.4rem rgba(200, 200, 100, 1), 0 0.1em 0.19em rgba(00, 00, 00, 1);
+}
+
+.nestedGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.nestedGridCell {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  transition: all 0.2s;
+}
+
+.nestedGridCell:hover {
+  background-color: rgba(200, 200, 100, 0.7);
+  box-shadow: 0 0 0.4rem rgba(200, 200, 100, 1), 0 0.1em 0.19em rgba(00, 00, 00, 1);
 }

@@ -7,77 +7,91 @@
   <!-- <title>Archaeologica Austriae</title> -->
   <title id="dynamicTitle">Original Title</title>
   <!-- <title>Archaeologica Austriae</title> -->
- <script>
-   // Function to ANIMATE TITLE:
-   function changeTitle() {
-     // Array of titles to cycle through
-     var titles = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
-     var currentIndex = 0; // Index to keep track of the current title
-     var name = " Archaeologica Austriae ";
-     // Function to UPDATE TITLE:
-     function updateTitle() {
-       document.getElementById("dynamicTitle").innerText = name + titles[currentIndex];
-       currentIndex = (currentIndex + 1) % titles.length; // Move to the next title or wrap around
-     }
-     // Initial update
-     updateTitle();
-     // Set interval to update the title every 300 milliseconds
-     setInterval(updateTitle, 300);
-   }
-   // Call the function when the page loads
-   window.onload = changeTitle;
- </script>
+  <script>
+    // Function to ANIMATE TITLE:
+    function changeTitle() {
+      // Array of titles to cycle through
+      var titles = ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"];
+      var currentIndex = 0; // Index to keep track of the current title
+      var name = " Archaeologica Austriae ";
+      // Function to UPDATE TITLE:
+      function updateTitle() {
+        document.getElementById("dynamicTitle").innerText = name + titles[currentIndex];
+        currentIndex = (currentIndex + 1) % titles.length; // Move to the next title or wrap around
+      }
+      // Initial update
+      updateTitle();
+      // Set interval to update the title every 300 milliseconds
+      setInterval(updateTitle, 300);
+    }
+    // Call the function when the page loads
+    window.onload = changeTitle;
+  </script>
   <link rel="stylesheet" type="text/css" , href="./styles/researchpage_style.css" />
 </head>
 
 <body>
 
   <!-- HEADER -->
-  <div class="container" id="headerWrapper">
- .
-    <!--
-    <a href="./mainpage.html" id="homeButton">
-      <div class="container" id="logo" title="zur Hauptseite">
-        AA
+  <a href="./mainpage.html" id="homeButton" title="zur Startseite">
+    <div class="container" id="headerWrapper">
+
+      <div id="animationContainer">
+        <div id="animation">
+          <div id="animationB">
+            <div id="animation">
+              <div id="animationB">
+                <div id="animation">
+                  <div class="circle" id="circle01">
+                    <div class="circle" id="circle03">
+                        <div class="circle" id="circle03">
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </a>
-  -->
+  </a>
 
   <!-- BUTTONS -->
-    <div class="container" id="buttonWrapper">
+  <div class="container" id="buttonWrapper">
 
-      <div class="hover" id="hoverField">
-        <a href="./sitespage.html" id="sitesButton">
-          <div class="button" title="zu interessanten Grabungsorten & Fundstellen">
-            GrabungsOrte
-          </div>
-        </a>
-      </div>
-      <!-- - - - - - - - - - - - - - - - - - -->
-      <div class="hover" id="hoverField">
-        <a href="./artefactspage04.html" id="artefactButton">
-          <div class="button" title="zu untersuchten Artefakten">
-            Artefakte
-          </div>
-        </a>
-      </div>
-      <!-- - - - - - - - - - - - - - - - - - -->
-      <div class="hover" id="hoverField">
-        <a href="./researchpage.html" id="researchButton">
-          <div class="button" title="zu aktuellen Forschungen, Ergebnissen & wissenschaftllichen Arbeiten ">
-            Forschung
-          </div>
-        </a>
-      </div>
-      <!-- - - - - - - - - - - - - - - - - - -->
-      <div class="hover" id="hoverField">
-        <a href="./mainpage.html" id="newsButton">
-          <div class="button" title="zur Hauptseite">
-            Hauptseite
-          </div>
-        </a>
-      </div>
+    <div class="hover" id="hoverField">
+      <a href="./sitespage.html" id="sitesButton">
+        <div class="button" title="zu interessanten Grabungsorten & Fundstellen">
+          GrabungsOrte
+        </div>
+      </a>
     </div>
+    <!-- - - - - - - - - - - - - - - - - - -->
+    <div class="hover" id="hoverField">
+      <a href="./artefactspage04.html" id="artefactButton">
+        <div class="button" title="zu untersuchten Artefakten">
+          Artefakte
+        </div>
+      </a>
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - -->
+    <div class="hover" id="hoverField">
+      <a href="./researchpage.html" id="researchButton">
+        <div class="button" title="zu aktuellen Forschungen, Ergebnissen & wissenschaftllichen Arbeiten ">
+          Forschung
+        </div>
+      </a>
+    </div>
+    <!-- - - - - - - - - - - - - - - - - - -->
+    <div class="hover" id="hoverField">
+      <a href="./mainpage.html" id="newsButton">
+        <div class="button" title="zur Hauptseite">
+          Hauptseite
+        </div>
+      </a>
+    </div>
+  </div>
   </div>
 
   <!-- DESCRIPTION -->
@@ -611,7 +625,7 @@
           Graz 2014,53. …………………………………………………………………………………………………………………………………… Seite 6 <br>
       </div>
 
-      
+
       <!-- <div class="infoBoxRight"> </div> -->
     </div>
   </div>

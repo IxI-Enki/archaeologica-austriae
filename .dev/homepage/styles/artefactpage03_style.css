@@ -839,3 +839,144 @@ img {
 
 
 }
+
+
+
+
+#animationContainer {
+  margin-top: -80px;
+  display: flex;
+  height: 100px;
+  /* border: rgb(255, 235, 53) 1px solid; */
+  align-items: center;
+}
+
+#animation {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 252, 56, 0.454);
+  transition: background-color;
+  box-shadow: 0 0 2px 5px rgba(255, 252, 61, 0.445);
+
+}
+
+#animationB {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 251, 30);
+  transition: background-color;
+  rotate: 45deg;
+
+  box-shadow: 0 0 5px 5px rgba(255, 248, 170, 0.79);
+}
+
+#animationB {
+  animation: pulseB 20s normal infinite;
+}
+
+@keyframes pulseB {
+  0% {
+    background-color: #fffdd3;
+  }
+
+  50% {
+    background-color: rgba(255, 225, 150, 0.678);
+  }
+
+  100% {
+    background-color: #fffdd3;
+    transform: rotate(-360deg);
+  }
+}
+
+#animation {
+  animation: pulse 20s normal infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #fff75f;
+  }
+
+  50% {
+    background-color: rgba(255, 227, 187, 0.678);
+  }
+
+  100% {
+    background-color: #fffdd3;
+    transform: rotate(360deg);
+  }
+}
+
+.circle {
+  width: 40%;
+  height: 40%;
+  border: 1px solid wheat;
+  border-radius: 50px;
+}
+
+@keyframes rotate {
+  0% {
+    background-color: rgb(255, 246, 114);
+  }
+
+  20% {
+    background-color: rgb(255, 227, 13);
+  }
+
+  50% {
+    background-color: rgba(255, 217, 67, 0.366);
+    transform: rotate(360deg);
+  }
+
+  80% {
+    background-color: rgb(255, 227, 13);
+  }
+
+  100% {
+    background-color: rgb(255, 246, 114);
+  }
+}
+
+#circle01 {
+  animation: rotate 4s normal infinite;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+
+#circle02 {  
+  
+  width: 88%;
+  height: 88%;
+  animation: pulsate 2.33s infinite ease-in-out;
+  background-color: rgba(20, 20, 0, 0.2);
+  align-self: center;
+  margin: auto;
+
+}
+
+#circle03 {
+  width: 100%;
+  height: 100%;
+  animation: pulsate 3.3s infinite ease-in-out;
+  background-color: rgba(0, 0, 0, 0.2);
+  align-self: center;
+  margin: auto;
+}
+
+@keyframes pulsate {
+
+  0% {
+    transform: scale3d(1.0, 1.0, 1.0);
+  }
+  50% {
+   transform: scale3d(1.2, 1.2, 1.2);
+  }
+  100% {
+    transform: scale3d (0.8, 0.8, 0.8);
+  }
+
+}

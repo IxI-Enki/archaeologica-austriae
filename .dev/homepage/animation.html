@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Archaeologica Austriae" content="collection of new archaeological places and artifacts from austria" />
+  <title id="dynamicTitle">Original Title</title>
+  <!-- <title>Archaeologica Austriae</title> -->
+  <script>
+    // Function to ANIMATE TITLE:
+    function changeTitle() {
+      // Array of titles to cycle through
+      var titles = ["Animation ", "nimation A", "imation An", "mation Ani", "ation Anima", "ion Animat", "on Animati", "n Animatio"];
+      var currentIndex = 0; // Index to keep track of the current title
+      // Function to UPDATE TITLE:
+      function updateTitle() {
+        document.getElementById("dynamicTitle").innerText = titles[currentIndex];
+        currentIndex = (currentIndex + 1) % titles.length; // Move to the next title or wrap around
+      }
+      // Initial update
+      updateTitle();
+      // Set interval to update the title every 300 milliseconds
+      setInterval(updateTitle, 300);
+    }
+    // Call the function when the page loads
+    window.onload = changeTitle;
+  </script>
+  <link rel="stylesheet" type="text/css" , href="./styles/animation_style.css" />
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div id="animationContainer">
+
+
+    </div>
+    <div id="animationContainer">
+      <div id="animation">
+        <div id="animationB">
+          <div id="animation">
+            <div id="animationB">
+              <div id="animationB">
+                <div id="animationB">
+                  <div class="circle" id="circle01">
+
+                    <div class="circle" id="circle02">
+                      <div class="circle" id="circle02">
+                        <div class="circle" id="circle02">
+                        
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+           <!-- Row 1 
+      <div class="gridCell">
+        <div class="nestedGridCell">1</div>
+        <div class="nestedGridCell">2</div>
+        <div class="nestedGridCell">1</div>
+      </div>
+    </div>
+
+    
+    <div class="gridRow">
+      <div class="gridCell">
+        <div class="nestedGrid">
+          <div class="nestedGridCell">1</div>
+          <div class="nestedGridCell">2</div>
+        </div>
+      </div>
+      <div class="gridCell">
+        <div class="nestedGrid">
+          <div class="nestedGridCell">1</div>
+          <div class="nestedGridCell">2</div>
+        </div>
+      </div>
+      <div class="gridCell">
+        <div class="nestedGrid">
+          <div class="nestedGridCell">1</div>
+          <div class="nestedGridCell">2</div>
+          <div class="nestedGridCell">3</div>
+        </div>
+      </div>
+      <div class="gridRow">
+        <div class="gridCell">
+          <div class="nestedGrid">
+            <div class="nestedGridCell">1</div>
+            <div class="nestedGridCell">2</div>
+            <div class="nestedGridCell">3</div>
+          </div>
+        </div>
+        <div class="gridCell">
+          <div class="nestedGrid">
+            <div class="nestedGridCell">1</div>
+            <div class="nestedGridCell">2</div>
+            <div class="nestedGridCell">3</div>
+          </div>
+        </div>
+        <div class="gridCell">
+          <div class="nestedGrid">
+            <div class="nestedGridCell">1</div>
+            <div class="nestedGridCell">2</div>
+            <div class="nestedGridCell">3</div>
+          </div>
+        </div>
+      -->
+</body>
+
+</html>

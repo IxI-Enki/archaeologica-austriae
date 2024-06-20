@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="Archaeologica Austriae" content="collection of new archaeological places and artifacts from austria" />
   <title id="dynamicTitle">Original Title</title>
-   <!-- <title>Archaeologica Austriae</title> -->
+  <!-- <title>Archaeologica Austriae</title> -->
   <script>
     // Function to ANIMATE TITLE:
     function changeTitle() {
@@ -30,6 +30,7 @@
 </head>
 
 <body style="width:100%;">
+
   <div class="wrapper_idx">
 
     <!-- Beispiel für inline style:-->
@@ -44,7 +45,7 @@
     <div class="container" id="mainBelt">
 
       <div class="container" id="headLine">
-        <h1 title="Home">
+        <h1 title="Ihre Seite für österreichische Archäologie">
           Archaeologica Austriae
         </h1>
         <p id="sub" style="text-align:right;">Vincá-, Donauschrift-, Megalith-, Erdstallforschung</p>
@@ -70,13 +71,13 @@
           </div>
         </a>
 
-     <a href="./newspage.html" id="newsButton">
+        <a href="./newspage.html" id="newsButton">
 
           <div class="button" title="zu den Neuigkeiten">
             Neuigkeiten
           </div>
         </a>
-       
+
       </div>
     </div>
 
@@ -84,7 +85,7 @@
 
       <div id="about">
         <h3 style="text-align: left;"> Archäologie in Österreich </h3>
-        <p>
+        <p id="l">
           Die Geschichte beginnt tausende Jahre vor der Hallstatt oder römischen Siedlungen,
           <br>
           diese Epochen entzogen sich lange gänzlich unserem Verständnis..
@@ -96,32 +97,42 @@
           - Artefakte die wir nun erst finden, datieren und zuordnen können.
 
           <!--
-  - Artefakte die sie selbst fanden und deren unschätzbaren Wert darin erkannten 
+  - Artefakte  die sie selbst fanden und deren unschätzbaren Wert darin erkannten 
   entgegen den Anweisungen der römischen-ratholischen Kirche Artefakte auf eine religiöse Art und Weise
   begraben, statt sie zu zerstören
 -->
         </p>
       </div>
 
-      <div id="shadow" style="height: 300px; width:300px; margin:auto;">
+
+
+      <div id="shadow">
+        <img id="mask" src="./images/mask_two_highlighted.png" alt="mask" />
+
+        <!--
         <div id="mask" style="height: 90%; width:99%; margin:auto" title="Vinca Maske, gefunden in Klosterneuburg">
         </div>
+        -->
       </div>
 
-      <div id="general">
-        <h3 style="text-align: right;">
+      <div id="general" id="r">
+        <h3 style="text-align: right;" id="r">
           Über Archaelogica Austriae
         </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, exercitationem! Nihil, quibusdam! Iusto quo,
-          nesciunt harum sequi eos quod veniam voluptatibus libero porro ipsam saepe, aperiam quaerat, rerum
-          reprehenderit odio.
+        <p id="r">
+          Diese Website widmet sich der Vincá-Kultur und der Prähistorie Österreichs. Gemeinsam begeben wir uns auf eine
+          Zeitreise durch Jahrtausende, erkunden die Geheimnisse der ersten Siedler und lüften die Rätsel längst
+          vergangener Epochen.
+
+          Von Steinwerkzeugen bis zu prächtigen Siedlungen – entdecke die vielfältigen Zeugnisse der menschlichen
+          Vergangenheit in Österreich. Erhalte Einblicke in die Lebensweise unserer Vorfahren, ihre Technologien und ihr
+          kulturelles Erbe.
         </p>
 
 
-        <div class="box_socialMedia" style="padding-block: 5px;">
+        <div class="box_socialMedia" style="padding-block: 5px; font-size:medium;" id="r">
           © Jan Ritt
-          <div class="container" id="socialMediaWrapper">
+          <div class="container" id="socialMediaWrapper" id="r">
 
             <div class="socialMedia" id="Links" title="Social Media Links"></div>
             <div class="socialMedia" id="tw" title="X / Twitter"></div>
@@ -135,7 +146,7 @@
 
       </div>
     </div>
-
+  </div>
 </body>
 
 </html>
