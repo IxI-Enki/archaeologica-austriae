@@ -19,3 +19,9 @@
 1.2.1.)  
 ---  
 ![image](https://github.com/IxI-Enki/archaeologica-austriae/assets/138018029/aad80100-22b3-4829-81df-2928264c0d0e)
+
+1.3.)
+----  
+![image](https://github.com/IxI-Enki/archaeologica-austriae/assets/138018029/c8228742-4376-4e6b-88aa-5d8a7d57b92f)
+
+![image](https://github.com/IxI-Enki/archaeologica-austriae/assets/138018029/7a883c81-64b2-454f-8c64-1fb834193da2)
